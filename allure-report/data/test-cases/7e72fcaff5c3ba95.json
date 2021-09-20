@@ -1,0 +1,56 @@
+{
+  "uid" : "7e72fcaff5c3ba95",
+  "name" : "verify title",
+  "fullName" : "Mercury LoginTest.verify title",
+  "historyId" : "8415c4abfc47b1403c5940d65efeae0c",
+  "time" : {
+    "start" : 1632063388998,
+    "stop" : 1632063404470,
+    "duration" : 15472
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify title"
+  }, {
+    "name" : "package",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e72fcaff5c3ba95.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

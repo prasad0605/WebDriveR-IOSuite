@@ -1,0 +1,58 @@
+{
+  "uid" : "a988c10547ad5b98",
+  "name" : "verify title",
+  "fullName" : "Mercury LoginTest.verify title",
+  "historyId" : "2a283e4aef10175d70bb8627a7558fa8",
+  "time" : {
+    "start" : 1632065064990,
+    "stop" : 1632065084705,
+    "duration" : 19715
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      \n                      actual expected\n                      \n                      'Welcome: Mercury ToursTours123'\n                      ",
+  "statusTrace" : "AssertionError: title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'\n                    at Context.<anonymous> (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\test\\specs\\loginTest.js:8:16)\n                    at Context.executeSync (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-1"
+  }, {
+    "name" : "suite",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify title"
+  }, {
+    "name" : "package",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-92.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a988c10547ad5b98.json",
+  "parameterValues" : [ "firefox-92.0" ]
+}

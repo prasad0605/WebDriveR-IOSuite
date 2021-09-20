@@ -1,0 +1,133 @@
+{
+  "uid" : "258bad2fe99f843f",
+  "name" : "verify title",
+  "fullName" : "Mercury LoginTest.verify title",
+  "historyId" : "2a283e4aef10175d70bb8627a7558fa8",
+  "time" : {
+    "start" : 1632073044597,
+    "stop" : 1632073052180,
+    "duration" : 7583
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify title"
+  }, {
+    "name" : "package",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-92.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b3768a41bf29bac5",
+      "status" : "failed",
+      "statusDetails" : "title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      \n                      actual expected\n                      \n                      'Welcome: Mercury ToursTours123'\n                      ",
+      "time" : {
+        "start" : 1632073044226,
+        "stop" : 1632073056191,
+        "duration" : 11965
+      }
+    }, {
+      "uid" : "59914b4faad81af0",
+      "status" : "failed",
+      "statusDetails" : "title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      \n                      actual expected\n                      \n                      'Welcome: Mercury ToursTours123'\n                      ",
+      "time" : {
+        "start" : 1632072715409,
+        "stop" : 1632072724219,
+        "duration" : 8810
+      }
+    }, {
+      "uid" : "dccce57193e081a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632072705035,
+        "stop" : 1632072713831,
+        "duration" : 8796
+      }
+    }, {
+      "uid" : "a988c10547ad5b98",
+      "status" : "failed",
+      "statusDetails" : "title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      \n                      actual expected\n                      \n                      'Welcome: Mercury ToursTours123'\n                      ",
+      "time" : {
+        "start" : 1632065064990,
+        "stop" : 1632065084705,
+        "duration" : 19715
+      }
+    }, {
+      "uid" : "8a8fcf2ad5552ec1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632065062791,
+        "stop" : 1632065081354,
+        "duration" : 18563
+      }
+    }, {
+      "uid" : "1df631361e1f5346",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632063430281,
+        "stop" : 1632063440505,
+        "duration" : 10224
+      }
+    }, {
+      "uid" : "f4e6aef07268d85e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632063427523,
+        "stop" : 1632063437425,
+        "duration" : 9902
+      }
+    }, {
+      "uid" : "987751951e03241e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632062789268,
+        "stop" : 1632062797893,
+        "duration" : 8625
+      }
+    }, {
+      "uid" : "2f5e249063316b20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632062788507,
+        "stop" : 1632062796995,
+        "duration" : 8488
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "258bad2fe99f843f.json",
+  "parameterValues" : [ "firefox-92.0" ]
+}

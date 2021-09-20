@@ -1,0 +1,135 @@
+{
+  "uid" : "d94e4691bbdf9b8d",
+  "name" : "verify Sign-In",
+  "fullName" : "Mercury LoginTest.verify Sign-In",
+  "historyId" : "a2bcd754a3019c26ec697f5d0e03ec5e",
+  "time" : {
+    "start" : 1632072713831,
+    "stop" : 1632072714475,
+    "duration" : 644
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1632072713831,
+        "stop" : 1632072713841,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "670a5315cb68f5f4",
+        "name" : "Response",
+        "source" : "670a5315cb68f5f4.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1632072713843,
+        "stop" : 1632072714252,
+        "duration" : 409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92580bfa76ff351f",
+        "name" : "Request",
+        "source" : "92580bfa76ff351f.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "594d9efa273ee2fb",
+        "name" : "Response",
+        "source" : "594d9efa273ee2fb.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/dfcdcc20-a436-4772-87f9-5b817aee46c4/displayed",
+      "time" : {
+        "start" : 1632072714259,
+        "stop" : 1632072714474,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "99801350e3708057",
+        "name" : "Response",
+        "source" : "99801350e3708057.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify Sign-In"
+  }, {
+    "name" : "package",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-92.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d94e4691bbdf9b8d.json",
+  "parameterValues" : [ "firefox-92.0" ]
+}

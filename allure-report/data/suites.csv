@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Sep 19 23:07:29 IST 2021","Sun Sep 19 23:07:30 IST 2021","190","","Mercury LoginTest","","Mercury LoginTest","verify Sign-In","verify Sign-In",""
+"passed","Sun Sep 19 23:07:36 IST 2021","Sun Sep 19 23:07:39 IST 2021","3064","","Mercury LoginTest","","Mercury LoginTest","verify login","verify login",""
+"failed","Sun Sep 19 23:07:12 IST 2021","Sun Sep 19 23:07:29 IST 2021","17100","","Mercury LoginTest","","Mercury LoginTest","verify title","verify title",""
+"passed","Sun Sep 19 23:07:24 IST 2021","Sun Sep 19 23:07:32 IST 2021","7583","","Mercury LoginTest","","Mercury LoginTest","verify title","verify title",""
+"passed","Sun Sep 19 23:07:36 IST 2021","Sun Sep 19 23:07:36 IST 2021","118","","Mercury LoginTest","","Mercury LoginTest","verify Sign-In","verify Sign-In",""
+"passed","Sun Sep 19 23:07:30 IST 2021","Sun Sep 19 23:07:37 IST 2021","7562","","Mercury LoginTest","","Mercury LoginTest","verify login","verify login",""

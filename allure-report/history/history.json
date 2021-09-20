@@ -1,0 +1,117 @@
+{
+  "e19dd73aac151e63987ac1b29144e28d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8beac2e58091ade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632073049945,
+        "stop" : 1632073050135,
+        "duration" : 190
+      }
+    } ]
+  },
+  "2a283e4aef10175d70bb8627a7558fa8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "258bad2fe99f843f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632073044597,
+        "stop" : 1632073052180,
+        "duration" : 7583
+      }
+    } ]
+  },
+  "8415c4abfc47b1403c5940d65efeae0c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5503127f8e9ad400",
+      "status" : "failed",
+      "statusDetails" : "title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      \n                      actual expected\n                      \n                      'Welcome: Mercury ToursTours123'\n                      ",
+      "time" : {
+        "start" : 1632073032844,
+        "stop" : 1632073049944,
+        "duration" : 17100
+      }
+    } ]
+  },
+  "a2bcd754a3019c26ec697f5d0e03ec5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78f3fc88171eac74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632073056192,
+        "stop" : 1632073056310,
+        "duration" : 118
+      }
+    } ]
+  },
+  "cff9da578058e01bd037ba735a01ac02" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b83b9bd535ce06e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632073056310,
+        "stop" : 1632073059374,
+        "duration" : 3064
+      }
+    } ]
+  },
+  "c27b7e9f7fec086a121addc8014ae8f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b93b849c952c899f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632073050136,
+        "stop" : 1632073057698,
+        "duration" : 7562
+      }
+    } ]
+  }
+}

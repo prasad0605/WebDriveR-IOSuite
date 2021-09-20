@@ -1,0 +1,76 @@
+{
+  "uid" : "b3768a41bf29bac5",
+  "name" : "verify title",
+  "fullName" : "Mercury LoginTest.verify title",
+  "historyId" : "2a283e4aef10175d70bb8627a7558fa8",
+  "time" : {
+    "start" : 1632073044226,
+    "stop" : 1632073056191,
+    "duration" : 11965
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      \n                      actual expected\n                      \n                      'Welcome: Mercury ToursTours123'\n                      ",
+  "statusTrace" : "AssertionError: title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'\n                    at Context.<anonymous> (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\test\\specs\\loginTest.js:8:16)\n                    at Context.executeSync (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      \n                      actual expected\n                      \n                      'Welcome: Mercury ToursTours123'\n                      ",
+    "statusTrace" : "AssertionError: title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'\n                    at Context.<anonymous> (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\test\\specs\\loginTest.js:8:16)\n                    at Context.executeSync (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c5bb6def099cde17",
+      "name" : "Screenshot",
+      "source" : "c5bb6def099cde17.png",
+      "type" : "image/png",
+      "size" : 82615
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-1"
+  }, {
+    "name" : "suite",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify title"
+  }, {
+    "name" : "package",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-92.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3768a41bf29bac5.json",
+  "parameterValues" : [ "firefox-92.0" ]
+}

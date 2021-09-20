@@ -1,0 +1,130 @@
+{
+  "uid" : "78f3fc88171eac74",
+  "name" : "verify Sign-In",
+  "fullName" : "Mercury LoginTest.verify Sign-In",
+  "historyId" : "a2bcd754a3019c26ec697f5d0e03ec5e",
+  "time" : {
+    "start" : 1632073056192,
+    "stop" : 1632073056310,
+    "duration" : 118
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-1"
+  }, {
+    "name" : "suite",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify Sign-In"
+  }, {
+    "name" : "package",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-92.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6328d4f6dcc20ea5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632073052180,
+        "stop" : 1632073052263,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "2553b0b4b4b9eedd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632072724219,
+        "stop" : 1632072724407,
+        "duration" : 188
+      }
+    }, {
+      "uid" : "d94e4691bbdf9b8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632072713831,
+        "stop" : 1632072714475,
+        "duration" : 644
+      }
+    }, {
+      "uid" : "a84258615827fab8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632065084726,
+        "stop" : 1632065086995,
+        "duration" : 2269
+      }
+    }, {
+      "uid" : "7fd674c2d44c2588",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632065081359,
+        "stop" : 1632065082116,
+        "duration" : 757
+      }
+    }, {
+      "uid" : "63bf1ef1f6784c05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632063440510,
+        "stop" : 1632063441809,
+        "duration" : 1299
+      }
+    }, {
+      "uid" : "dc12fc5fdc128ad2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632063437431,
+        "stop" : 1632063438645,
+        "duration" : 1214
+      }
+    }, {
+      "uid" : "aa690342b3ff8806",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632062797897,
+        "stop" : 1632062798557,
+        "duration" : 660
+      }
+    }, {
+      "uid" : "eea19d3c5fe7e4c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632062796998,
+        "stop" : 1632062797763,
+        "duration" : 765
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78f3fc88171eac74.json",
+  "parameterValues" : [ "firefox-92.0" ]
+}

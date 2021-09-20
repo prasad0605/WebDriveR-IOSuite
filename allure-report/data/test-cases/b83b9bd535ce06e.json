@@ -1,0 +1,130 @@
+{
+  "uid" : "b83b9bd535ce06e",
+  "name" : "verify login",
+  "fullName" : "Mercury LoginTest.verify login",
+  "historyId" : "cff9da578058e01bd037ba735a01ac02",
+  "time" : {
+    "start" : 1632073056310,
+    "stop" : 1632073059374,
+    "duration" : 3064
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-1"
+  }, {
+    "name" : "suite",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify login"
+  }, {
+    "name" : "package",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-92.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "21e802e1278fe735",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632073052263,
+        "stop" : 1632073059249,
+        "duration" : 6986
+      }
+    }, {
+      "uid" : "e8421eaa61d23dad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632072724407,
+        "stop" : 1632072730997,
+        "duration" : 6590
+      }
+    }, {
+      "uid" : "63e3dddaf0555351",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632072714475,
+        "stop" : 1632072719066,
+        "duration" : 4591
+      }
+    }, {
+      "uid" : "74eaa3d07a219274",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632065086997,
+        "stop" : 1632065098967,
+        "duration" : 11970
+      }
+    }, {
+      "uid" : "7a398f48f51d749c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632065082118,
+        "stop" : 1632065095364,
+        "duration" : 13246
+      }
+    }, {
+      "uid" : "91a292fcf00d874b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632063441810,
+        "stop" : 1632063447503,
+        "duration" : 5693
+      }
+    }, {
+      "uid" : "28feac8b9efd0d74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632063438647,
+        "stop" : 1632063444354,
+        "duration" : 5707
+      }
+    }, {
+      "uid" : "219be1cf30172bef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632062798559,
+        "stop" : 1632062803484,
+        "duration" : 4925
+      }
+    }, {
+      "uid" : "3a6987885413946c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632062797764,
+        "stop" : 1632062803503,
+        "duration" : 5739
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b83b9bd535ce06e.json",
+  "parameterValues" : [ "firefox-92.0" ]
+}

@@ -1,0 +1,175 @@
+{
+  "uid" : "c22293d49e77e72c",
+  "name" : "verify title",
+  "fullName" : "Mercury LoginTest.verify title",
+  "historyId" : "8415c4abfc47b1403c5940d65efeae0c",
+  "time" : {
+    "start" : 1632072732056,
+    "stop" : 1632072737599,
+    "duration" : 5543
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      \n                      actual expected\n                      \n                      'Welcome: Mercury ToursTours123'\n                      ",
+  "statusTrace" : "AssertionError: title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'\n                    at Context.<anonymous> (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\test\\specs\\loginTest.js:8:16)\n                    at Context.executeSync (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      \n                      actual expected\n                      \n                      'Welcome: Mercury ToursTours123'\n                      ",
+    "statusTrace" : "AssertionError: title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'\n                    at Context.<anonymous> (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\test\\specs\\loginTest.js:8:16)\n                    at Context.executeSync (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1632072732077,
+        "stop" : 1632072732311,
+        "duration" : 234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1ed59a2bd9ec680a",
+        "name" : "Response",
+        "source" : "1ed59a2bd9ec680a.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1632072732313,
+        "stop" : 1632072736130,
+        "duration" : 3817
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "580838c83a321dae",
+        "name" : "Request",
+        "source" : "580838c83a321dae.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1632072736131,
+        "stop" : 1632072736140,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19ec0c53969e4181",
+        "name" : "Response",
+        "source" : "19ec0c53969e4181.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1632072736141,
+        "stop" : 1632072736149,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a96dceb27eef8f04",
+        "name" : "Response",
+        "source" : "a96dceb27eef8f04.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1632072736153,
+        "stop" : 1632072737583,
+        "duration" : 1430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "50047250472f1235",
+        "name" : "Screenshot",
+        "source" : "50047250472f1235.png",
+        "type" : "image/png",
+        "size" : 119377
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify title"
+  }, {
+    "name" : "package",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c22293d49e77e72c.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

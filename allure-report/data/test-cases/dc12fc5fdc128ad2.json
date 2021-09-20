@@ -1,0 +1,56 @@
+{
+  "uid" : "dc12fc5fdc128ad2",
+  "name" : "verify Sign-In",
+  "fullName" : "Mercury LoginTest.verify Sign-In",
+  "historyId" : "a2bcd754a3019c26ec697f5d0e03ec5e",
+  "time" : {
+    "start" : 1632063437431,
+    "stop" : 1632063438645,
+    "duration" : 1214
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify Sign-In"
+  }, {
+    "name" : "package",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-92.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc12fc5fdc128ad2.json",
+  "parameterValues" : [ "firefox-92.0" ]
+}

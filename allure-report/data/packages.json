@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Mercury LoginTest",
+    "children" : [ {
+      "name" : "verify title",
+      "uid" : "5503127f8e9ad400",
+      "parentUid" : "124f0474e688f832629a085747dde106",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632073032844,
+        "stop" : 1632073049944,
+        "duration" : 17100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "verify title",
+      "uid" : "258bad2fe99f843f",
+      "parentUid" : "124f0474e688f832629a085747dde106",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632073044597,
+        "stop" : 1632073052180,
+        "duration" : 7583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "verify Sign-In",
+      "uid" : "8beac2e58091ade",
+      "parentUid" : "124f0474e688f832629a085747dde106",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632073049945,
+        "stop" : 1632073050135,
+        "duration" : 190
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "verify login",
+      "uid" : "b93b849c952c899f",
+      "parentUid" : "124f0474e688f832629a085747dde106",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632073050136,
+        "stop" : 1632073057698,
+        "duration" : 7562
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "verify Sign-In",
+      "uid" : "78f3fc88171eac74",
+      "parentUid" : "124f0474e688f832629a085747dde106",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632073056192,
+        "stop" : 1632073056310,
+        "duration" : 118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    }, {
+      "name" : "verify login",
+      "uid" : "b83b9bd535ce06e",
+      "parentUid" : "124f0474e688f832629a085747dde106",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632073056310,
+        "stop" : 1632073059374,
+        "duration" : 3064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-92.0" ]
+    } ],
+    "uid" : "124f0474e688f832629a085747dde106"
+  } ]
+}

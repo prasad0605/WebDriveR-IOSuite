@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632073032844' stop='1632073057698'>
+    <name>Mercury LoginTest</name>
+    <title>Mercury LoginTest</title>
+    <test-cases>
+        <test-case start='1632073032844' status='failed' stop='1632073049944'>
+            <name>verify title</name>
+            <title>verify title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f199937c-5b10-41dc-af75-c36da9daba5b-attachment.png' type='image/png' size='119377'/>
+            </attachments>
+            <failure>
+                <message>title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      
+                      actual expected
+                      
+                      'Welcome: Mercury ToursTours123'
+                      </message>
+                <stack-trace>AssertionError: title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'
+                    at Context.&lt;anonymous> (F:\Testing\WebDriverIO-PageObjectModelFramework\test\specs\loginTest.js:8:16)
+                    at Context.executeSync (F:\Testing\WebDriverIO-PageObjectModelFramework\node_modules\@wdio\sync\build\index.js:38:22)
+                    at F:\Testing\WebDriverIO-PageObjectModelFramework\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632073049945' status='passed' stop='1632073050135'>
+            <name>verify Sign-In</name>
+            <title>verify Sign-In</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1632073050136' status='passed' stop='1632073057698'>
+            <name>verify login</name>
+            <title>verify login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

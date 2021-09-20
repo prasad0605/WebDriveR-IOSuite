@@ -1,0 +1,156 @@
+{
+  "uid" : "5503127f8e9ad400",
+  "name" : "verify title",
+  "fullName" : "Mercury LoginTest.verify title",
+  "historyId" : "8415c4abfc47b1403c5940d65efeae0c",
+  "time" : {
+    "start" : 1632073032844,
+    "stop" : 1632073049944,
+    "duration" : 17100
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      \n                      actual expected\n                      \n                      'Welcome: Mercury ToursTours123'\n                      ",
+  "statusTrace" : "AssertionError: title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'\n                    at Context.<anonymous> (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\test\\specs\\loginTest.js:8:16)\n                    at Context.executeSync (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      \n                      actual expected\n                      \n                      'Welcome: Mercury ToursTours123'\n                      ",
+    "statusTrace" : "AssertionError: title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'\n                    at Context.<anonymous> (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\test\\specs\\loginTest.js:8:16)\n                    at Context.executeSync (F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at F:\\Testing\\WebDriverIO-PageObjectModelFramework\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "473f901930bbd7ee",
+      "name" : "Screenshot",
+      "source" : "473f901930bbd7ee.png",
+      "type" : "image/png",
+      "size" : 119377
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify title"
+  }, {
+    "name" : "package",
+    "value" : "Mercury LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "531e97b49cb1f2a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632073032843,
+        "stop" : 1632073039130,
+        "duration" : 6287
+      }
+    }, {
+      "uid" : "c22293d49e77e72c",
+      "status" : "failed",
+      "statusDetails" : "title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      \n                      actual expected\n                      \n                      'Welcome: Mercury ToursTours123'\n                      ",
+      "time" : {
+        "start" : 1632072732056,
+        "stop" : 1632072737599,
+        "duration" : 5543
+      }
+    }, {
+      "uid" : "ea727c7896f9516f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632072713653,
+        "stop" : 1632072730108,
+        "duration" : 16455
+      }
+    }, {
+      "uid" : "5349c84bd81ded35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632064923632,
+        "stop" : 1632064936439,
+        "duration" : 12807
+      }
+    }, {
+      "uid" : "2d3842ace021c581",
+      "status" : "failed",
+      "statusDetails" : "title is not displayed as expected: expected 'Welcome: Mercury Tours' to equal 'Welcome: Mercury Tours123'      \n                      actual expected\n                      \n                      'Welcome: Mercury ToursTours123'\n                      ",
+      "time" : {
+        "start" : 1632064923567,
+        "stop" : 1632064938358,
+        "duration" : 14791
+      }
+    }, {
+      "uid" : "7e72fcaff5c3ba95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632063388998,
+        "stop" : 1632063404470,
+        "duration" : 15472
+      }
+    }, {
+      "uid" : "8643b0670de4db92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632063387962,
+        "stop" : 1632063404576,
+        "duration" : 16614
+      }
+    }, {
+      "uid" : "eb5526a038a32a3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632062750017,
+        "stop" : 1632062761608,
+        "duration" : 11591
+      }
+    }, {
+      "uid" : "d939a053a6e58762",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632062749589,
+        "stop" : 1632062759976,
+        "duration" : 10387
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5503127f8e9ad400.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}
